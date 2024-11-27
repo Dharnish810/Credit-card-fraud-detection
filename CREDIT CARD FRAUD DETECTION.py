@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from imblearn.over_sampling import SMOTE
 
 # Load the dataset
-file_path = r'C:\Users\Dharnish\Downloads\creditcardn.csv'  # Adjust the path as necessary
+file_path = r'.\creditcardn.csv'  # Adjust the path as necessary
 credit_data = pd.read_csv(file_path)
 
 # Display basic information about the dataset
